@@ -1,0 +1,614 @@
+body{
+	font: normal 100%/160% 'Futura';
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+#top{
+	width: 100%;
+	padding: 2.5em 0 1.5em;
+}
+
+.container{
+	width: 50em;
+	margin: 0 auto;
+}
+
+#header{
+	font: italic 400% 'Futura';
+	float: left;
+	width: 60%;
+	margin: 0.5em 0;
+}
+
+b{
+	color: #82b1ca;
+	font-family: 'Futura';
+}
+
+#icon{
+	width: 40%;
+	float: right;
+	margin: 1em 0;
+}
+
+#icon img{
+	width: 300px;
+	height: 300px;
+}
+
+ul#games{
+	clear: both;
+	list-style-type: none;
+	-webkit-padding-start: 0!important;
+	padding-top: 2.5em;
+}
+
+ul#games li{
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+	margin: 5px 0;
+}
+
+ul#games li a:link, ul#games li a:visited{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	font: normal 130% 'Futura';
+	padding: 5px;
+}
+
+.ruby:hover{
+	background: #CE2D25;
+}
+
+.emerald:hover{
+	background: #3A947A;
+}
+
+.firered:hover{
+	background: #DE663D;
+}
+
+.diamond:hover{
+	background: #50A0AD;
+}
+
+.platinum:hover{
+	background: #666675;
+}
+
+.heartgold:hover{
+	background: #DAB648;
+}
+
+.black:hover{
+	background: #000;
+}
+
+.black2:hover{
+	color: #000!important;
+	background: #fff;
+}
+
+.x:hover{
+	background: #27A4BC;
+}
+
+.y:hover{
+background: #374768;
+}
+
+.omega:hover{
+	background: #8f1a1a;
+}
+
+.moon:hover{
+	background: #895FA1;
+}
+
+.trainer:hover{
+	background: #b0dde8;
+}
+
+.masterball:hover{
+	background: #7E5FC6;
+}
+
+.misc:hover{
+	/* background: #e7b0b6; */
+	background: #ffb83d;
+}
+
+.shiny:hover{
+    background:#ededed;
+}
+
+#bottom{
+	width: 100%;
+	clear: both;
+}
+
+#bottom .container{
+	margin: 2em auto;
+	text-align: left;
+	background: #fff;
+	color: #504d50;
+	padding: 0 0 0.5em;
+	font: normal 100%/160% 'Lato';
+}
+
+.left{
+	padding: 0.3em 1.5em ;
+
+}
+
+.right{
+	background: #82b1ca;
+	padding: 0.3em 1.5em 1em;
+	font-size: 120%;
+	color: #fff;
+}
+
+.right b{
+	color: #d4e8f1;
+}
+
+small{
+	font-size: 75%;
+	font-weight: none!important;
+}
+
+mball{
+	color: #7E5FC6;
+	text-transform: uppercase;
+	font-family: 'Futura';
+}
+
+td.ribbons .tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+td.ribbons .tooltip .tooltiptext {
+    visibility: hidden;
+    text-align: left;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: -91%;
+    right: -174%;
+    margin-left: -70px;
+    font: normal 70% 'Lato';
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.tooltip:hover{
+    cursor: pointer;
+}
+
+td.ribbons .tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+ruby{
+	color: #CE2D25;
+	font-weight: bold;
+}
+
+grass, flying, steel, fairy, rock, ice, water, normal, fire, electric, dark, fighting, poison, psychic, bug, ghost, dragon, ground{
+	color: #fff;
+	padding: 2px 3px;
+	margin: 0 2px;
+	text-transform: uppercase;
+	font-size: 85%;
+        text-shadow: none!important;
+}
+
+grass{
+	background: #71C049;
+}
+
+flying{
+	background: #9F8ADF;
+}
+
+steel{
+	background: #ABABC7;
+}
+
+fairy{
+	background: #E385E3;
+}
+
+rock{
+	background: #A79133;
+}
+
+ice{
+	background: #86D1D1;
+}
+
+water{
+	background: #5582EE;
+}
+
+kingdra{ color: #5582EE; }
+
+dark{
+	background: #59473A;
+}
+
+normal{
+	background: #9C9C6C;
+}
+
+fire{
+	background: #EB7927;
+}
+
+electric{
+	background: #F4C81B;
+}
+
+fighting{
+	background: #A82C26
+}
+
+poison{
+	background: #913A91;
+}
+
+ground{
+	background: #D9B247;
+}
+
+psychic{
+	background: #F7356F;
+}
+
+bug{
+	background: #9CAA1E;
+}
+
+ghost{
+	background: #624D85;
+}
+
+dragon{
+	background: #5B1CF3
+}
+
+#footer{
+	padding: 2em 0 1em;
+	margin: 1em auto;
+	text-align: center;
+	font: normal 80%/160% 'Lato';
+	clear: both;
+}
+
+#footer a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font: normal 100%/160% 'Futura';
+	padding: 3px;
+}
+
+#meta h1{
+	font: normal 310% 'Futura';
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+}
+
+#meta{
+	float: right;
+	text-align: left;
+	width: 65%;
+}
+
+#meta h2{
+	font: normal 200% 'Futura';
+	letter-spacing: 7px;
+	text-transform: lowercase;
+	margin: -0.5em 0 0 0.1em;
+	padding: 0;
+}
+
+#ava{
+	float: left;
+	width: 30%;
+	margin: 1em 0;
+}
+
+#ava img{
+	width: 250px;
+	height: 250px;
+}
+
+.talk{
+	padding: 0.1em 0.3em;
+	text-align: left;
+	color: #fff;
+	font: normal 90%/160% 'Lato';
+}
+
+gmon{
+	color: #71C049;
+}
+
+#pokes, #x .x2013, #x .x2016, #favlist{
+	clear: both;
+	margin: 0 auto;
+	font: normal 100%/160% 'Lato';
+}
+
+.pkmn img{
+	display: block;
+	height: 100px;
+	margin: 0 auto;
+}
+
+img.bird{
+	padding-top: 25px;
+	height: 50px!important;
+	padding-bottom: 25px;
+}
+
+img.bigbirb{
+	height: 180px;
+	margin-top: -50px;
+	margin-bottom: -30px;
+}
+
+img.wiggle{
+	height: 90px!important;
+	padding-bottom: 10px;
+}
+
+img.boy{
+	height: 55px!important;
+	padding-top: 45px;
+}
+
+.pkmn b{
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.pkmn td{
+	width: 90%;
+	text-align: left;
+	font-size: 88%;
+}
+
+.mon td:first-child{
+	text-align: right;
+}
+
+td:nth-child(2) img{
+	height: 15px!important;
+	width: 15px!important;
+	display: inline;
+	vertical-align: text-top;
+}
+
+a.movesetlink{
+	display: block;
+	color: #fff;
+	padding: 3px 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 90%;
+}
+
+.moveset{
+text-transform: lowercase;
+letter-spacing: 2px;
+}
+
+.moveset td{
+	text-align: center;
+	padding: 3px;
+	width: 50%!important;
+}
+
+/********************************/
+
+/**APPLICABLE TO MULTIPLE**/
+
+/**META LENGTH**/
+#ruby #meta, #diamond #meta, #platinum #meta, #black2 #meta, #y #meta, #moon #meta, #misc #meta, #favs #meta {margin: 3em 0;}
+#emerald #meta, #firered #meta, #black #meta, #heartgold #meta, #x #meta, #omega #meta{margin: 1.5em 0 3em;}
+
+/**DIVIDING THE PAGE FOR MORE POKEMON / INTO THIRDS**/
+#emerald #pokes, #diamond #pokes, #black #pokes, #black2 #pokes, #heartgold #pokes, #x .x2013, #y #pokes, #omega #pokes, #moon #pokes, #misc #pokes, #shiny #pokes, #favs #favlist{width: 60em;}
+#emerald .pkmn, #diamond .pkmn, #black .pkmn, #black2 .pkmn, #heartgold .pkmn, #x .x2013 .pkmn, #y .pkmn, #omega .pkmn, #moon .pkmn, #misc #pokes .group .pkmn, #shiny .pkmn{
+    width: 31.1%;
+    float: left;
+    margin: 0 1.1% 1.5em;
+}
+
+/** POKEMON METADATA**/
+#emerald .mon td:first-child, #diamond .mon td:first-child, #black .mon td:first-child, #black2 .mon td:first-child,
+	#heartgold .mon td:first-child, #x .mon td:first-child, #y .mon td:first-child, #omega .mon td:first-child, #moon .mon td:first-child, #misc .group .mon td:first-child, #shiny .mon td:first-child{width: 10%; vertical-align: top;}
+#platinum .mon td:first-child, #firered .mon td:first-child, #x .x2016 .mon td:first-child{width: 50%;}
+#ruby .pkmn:nth-child(even), #firered .pkmn:nth-child(even), #x .x2016 .pkmn:nth-child(even), #moon .pkmn:nth-child(even) {float: right;}
+
+
+/**3D STUFF**/
+#x #ava img, #y #ava img, #omega #ava img, #moon #ava img{ width: 257px;	height: 250px;}
+#x #footer a:hover, #y #footer a:hover, #moon #footer a:hover, #shiny #footer a:hover{color: #fff; text-shadow: none!important;}
+
+/********************************/
+
+/**FOR VARIANT NUMBERS**/
+
+/**2 or 4**/
+#ruby #pokes, #firered #pokes, #x .x2016{width: 50em;}
+#ruby .pkmn, #firered .pkmn, #x .x2016 .pkmn {width: 47%;float: left; margin-bottom: 1.5em;}
+
+/**6**/
+#emerald .pkmn:nth-child(3n+3), #black .pkmn:nth-child(3n+3), #shiny .pkmn:nth-child(3+n){float: right;}
+
+/**RUBY**/
+#ruby #meta h1 i, #ruby .pkmn b{color: #8f1a1a;}
+#ruby .moveset, #ruby a.movesetlink{background: #8f1a1a;}
+#ruby .mon td:first-child{width: 40%;}
+/** tooltip with omega ruby **/
+
+/**EMERALD**/
+#emerald #meta h1 i, #emerald .pkmn b{color: #75cca0;}
+#emerald .moveset, #emerald a.movesetlink{background: #75cca0;}
+#emerald .tooltip .tooltiptext{
+    background-color: #75cca0;
+    box-shadow: 0.2em 0.2em 0em #3A947A;
+}
+
+/**DIAMOND**/
+#diamond #meta h1 i, #diamond .pkmn b{color: #47757d;}
+#diamond .moveset, #diamond a.movesetlink{background: #47757d;}
+#diamond .tooltip .tooltiptext{
+    background-color: #47757d;
+    box-shadow: 0.2em 0.2em 0em #50A0AD;
+}
+
+/**PLATINUM (there's only chimchar so there's more adjustment)**/
+#platinum #meta h1 i, #platinum .pkmn b{color: #9d9dac;}
+#platinum .moveset, #platinum a.movesetlink{background: #9d9dac;}
+#platinum #ava{margin-bottom: 0!important;}
+#platinum #pokes{width: 25em;margin-bottom: 2.3em;}
+#platinum .pkmn{
+	width: 100%;
+	margin-bottom: 1.5em;
+	background: #fff;
+    border-radius: 12em;
+    height: 23em;
+	color: #666675;
+	padding-top: 1em;
+}
+#platinum .tooltip .tooltiptext{
+    background-color: #666675;
+    box-shadow: 0.2em 0.2em 0em #9d9dac;
+}
+
+/**FIRE RED**/
+#firered #meta h1 i, #firered .pkmn b{color: #b82b0b;}
+#firered .moveset, #firered a.movesetlink{background: #b82b0b;}
+#firered .tooltip .tooltiptext{
+    background-color: #b82b0b;
+    box-shadow: 0.2em 0.2em 0em #DE663D;
+}
+
+/**BLACK**/
+#black #meta h1 i, #black .pkmn b{color: #444;}
+#black .moveset, #black a.movesetlink{background: #444;}
+
+/**BLACK 2**/
+#black2 #meta h1 i, #black2 .pkmn b{color: #999;}
+#black2 .moveset, #black2 a.movesetlink{background: #444;color: #fff!important;}
+
+/**HEART GOLD **/
+#heartgold #meta h1 i, #heartgold .pkmn b{color: #cca11e;}
+#heartgold .moveset, #heartgold a.movesetlink{background: #cca11e;}
+#heartgold .tooltip .tooltiptext{
+    background-color: #b58d15;
+    box-shadow: 0.2em 0.2em 0em #e5c974;
+    text-shadow: none;
+}
+
+/**X**/
+#x #meta h1 i{color: #073999; text-shadow: 0.12em 0em 0em #9EE1BE;}
+#x .pkmn b{color: #87d3ab; }
+#x .pkmn{color: #fff!important;}
+#x .moveset, #x a.movesetlink{background: #073999; color: #DAE9F0;  box-shadow: 5px 5px 0 #87d3ab; text-shadow: none;}
+#x hr{ border-bottom: 5px solid #87d3ab; box-shadow: 0.12em 0.12em 0 #fff; border-top: none; clear: both; width: 45em; margin: 4em auto;}
+#x .tooltip .tooltiptext{
+    background-color: #9EE1BE;
+    box-shadow: 0.2em 0.2em 0em #27A4BC;
+    color:#073999;
+    text-shadow: none;
+}
+
+/**Y**/
+#y #meta h1 i{ text-shadow: 0.12em 0em 0em #D32139; color:#E5BEBC;}
+#y .pkmn b{color: #E5BEBC;}
+#y .moveset, #y a.movesetlink{ background: #D32139; color: #fff; box-shadow: 5px 5px 0 #E5BEBC; text-shadow: none; }
+#y .pkmn td{font-size: 87%!important;}
+#y .tooltip .tooltiptext{
+    background-color: #212d42;
+    box-shadow: 0.2em 0.2em 0em #E5BEBC;
+    text-shadow: none;
+}
+
+/**OMEGA RUBY**/
+#omega #meta h1 i{color: #8f1a1a; text-shadow: 0.12em 0em 0em #FFF356;}
+#omega .pkmn b{ color: #8f1a1a; }
+omega{color:#8f1a1a; text-shadow: 0.05em 0em 0em #FFF356;}
+#omega .moveset, #omega a.movesetlink{background: #8f1a1a; box-shadow: 5px 5px 0 #FFF356;}
+#omega #meta a:link, #omega #meta a:visited{ color: #fff; text-decoration: none; border-bottom: dotted 1px #fff;}
+#omega #meta a:hover, #omega #meta a:active{ color: #8f1a1a; text-decoration: none; border-bottom: solid 1px #8f1a1a;}
+#omega .tooltip .tooltiptext, #ruby .tooltip .tooltiptext{
+    background-color:#8f1a1a;
+    box-shadow: 0.2em 0.2em 0em #CE2D25;
+}
+
+/**MOON**/
+#moon #meta h1 i{color: #42A3DB; text-shadow: 0.12em 0 0 #895fa1;}
+#moon .pkmn b{color: #42A3DB; text-shadow: none;}
+#moon .moveset, #moon a.movesetlink{ background: #895fa1; box-shadow: 5px 5px 0 #42A3DB; }
+moonish{color: #42A3DB;}
+#moon .tooltip .tooltiptext{
+    background-color: #33296D;
+    box-shadow: 0.2em 0.2em 0em #42A3DB;
+    text-shadow: none;
+}
+
+/**MISC**/
+#misc #meta h1 i, #misc .pkmn b{color: #d13055;}
+#misc #meta{margin-bottom: 4em;}
+#misc #pokes .single, #misc #pokes .group{margin: 0 auto;}
+#misc .single .mon td:first-child{width: 35%;}
+#misc .mon td{vertical-align: top}
+#misc .single .pkmn{
+	margin: 0.5em 3em 1.5em;
+	float: left;
+}
+#misc .single .mis{
+	background: #fff;
+    border-radius: 12em;
+    height: 23em;
+	color: #444;
+	padding-top: 1em;
+	width: 24em;
+	margin-bottom: 1em;
+}
+#misc .moveset, #misc a.movesetlink{background: #d13055;}
+#misc .tooltip .tooltiptext{
+    background-color: #d13055;
+    box-shadow: 0.2em 0.2em 0em #ffb83d;
+}
+
+/**FAVS**/
+#favs #meta h1 i{
+    color: #5b4c8c;
+}
+
+
+pink{color: #e7b0b6;}
+ruby, leaf, emerald, omegaruby, x{ padding: 0 3px; font: normal 90% 'Futura'; text-transform: uppercase; color: #fff;}
+leaf{ background: #488025;}
+emerald{background: #3A947A; }
+ruby{background: #CE2D25;}
+omegaruby{ background: #8f1a1a;}
+x{background: #27A4BC}
+
+/**SHINY**/
+#shiny #top{ padding: 4em 0 3em!important; }
+#shiny #meta{ float: none; margin: 0 auto; text-align: center; 	text-shadow: 0.12em 0em 0.2em #777;}
+#shiny .pkmn b, #shiny #footer a:link, #shiny #footer a:visited{ color: #fff; text-shadow: 0.12em 0em 0.5em #555;}
+#shiny .mon td:first-child{ padding-right: 10px; }
