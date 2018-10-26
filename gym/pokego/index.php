@@ -9,7 +9,7 @@
 <style type="text/css">
 body{
 		background: #B2FAA8;
-		background: -moz-linear-gradient(top left, #43BAB4  0%,#43BAB4 10%,#B2FAA8 100%);
+		background: -moz-linear-gradient(top left, #43BAB4  0%,#43BAB4 10start%,#B2FAA8 100%);
 		background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#43BAB4), color-stop(10%,#43BAB4), color-stop(100%,#B2FAA8));
 		background: -webkit-linear-gradient(bottom right, #43BAB4  0%,#43BAB4 10%,#B2FAA8 100%); 
 		background: -o-linear-gradient(top left, #43BAB4  0%,#43BAB4 10%,#B2FAA8 100%); 
@@ -41,12 +41,22 @@ padding-bottom: 1em;
 }
 
 #avatar img{
-	width: 300px;
+	width: 200px;
 	margin-left: 20px;
 }
 
 h1{
 	color: #8E2735;
+}
+
+blockquote{
+    color: #8E2735;
+    margin: 0 30px 50px;
+    padding: 20px;
+    text-align: center;
+    background: url('bq.png') no-repeat center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .level{
@@ -163,9 +173,11 @@ a:hover, a:active{
 
 <h1 class="name">lilycoves</h1>
 <h1 class="level">Level 28</h1>
-<div id="avatar"><img src="me3.png"></div>
+<div id="avatar"><img src="me.png" width="389"></div>
+<blockquote><b>Trainer Code</b>
+<br />0574 - 0981 - 4155</blockquote>
 <div class="left"><b>Start Date</b><br />6 July 2016</div>
-<div class="right"><b>Pok&eacute;dex</b> <br />300/327</div>
+<div class="right"><b>Pok&eacute;dex</b> <br />318/348</div>
 
 <div id="gyms">
 
@@ -425,7 +437,7 @@ a:hover, a:active{
 <img src="icons/241.png" class="caught">
 <img src="icons/242.png" class="seen">
 <img src="icons/243.png" class="unknown">
-<img src="icons/244.png" class="unknown">
+<img src="icons/244.png" class="caught">
 <img src="icons/245.png" class="unknown">
 <img src="icons/246.png" class="caught">
 <img src="icons/247.png" class="caught">
@@ -440,7 +452,7 @@ a:hover, a:active{
 <img src="icons/256.gif" class="caught">
 <img src="icons/257.gif" class="seen">
 <img src="icons/258.gif" class="caught">
-<img src="icons/259.gif" class="unknown">
+<img src="icons/259.gif" class="caught">
 <img src="icons/260.gif" class="seen">
 <img src="icons/261.gif" class="caught">
 <img src="icons/262.gif" class="caught">
@@ -452,11 +464,11 @@ a:hover, a:active{
 <img src="icons/268.gif" class="caught">
 <img src="icons/269.gif" class="caught">
 <img src="icons/270.gif" class="caught">
-<img src="icons/271.gif" class="unknown">
+<img src="icons/271.gif" class="caught">
 <img src="icons/272.gif" class="seen">
 <img src="icons/273.gif" class="caught">
 <img src="icons/274.gif" class="caught">
-<img src="icons/275.gif" class="unknown">
+<img src="icons/275.gif" class="caught">
 <img src="icons/276.gif" class="caught">
 <img src="icons/277.gif" class="caught">
 <img src="icons/278.gif" class="unknown">
@@ -489,7 +501,7 @@ a:hover, a:active{
 <img src="icons/305.gif" class="caught">
 <img src="icons/306.gif" class="seen">
 <img src="icons/307.gif" class="caught">
-<img src="icons/308.gif" class="unknown">
+<img src="icons/308.gif" class="caught">
 <img src="icons/309.gif" class="caught">
 <img src="icons/310.gif" class="caught">
 <img src="icons/311.gif" class="caught">
@@ -505,13 +517,13 @@ a:hover, a:active{
 <img src="icons/321.gif" class="seen">
 <img src="icons/322.gif" class="caught">
 <img src="icons/323.gif" class="caught">
-<img src="icons/324.gif" class="unknown">
+<img src="icons/324.gif" class="seen">
 <img src="icons/325.gif" class="caught">
 <img src="icons/326.gif" class="caught">
 <img src="icons/327.gif" class="unknown">
 <img src="icons/328.gif" class="caught">
 <img src="icons/329.gif" class="caught">
-<img src="icons/330.gif" class="unknown">
+<img src="icons/330.gif" class="caught">
 <img src="icons/331.gif" class="caught">
 <img src="icons/332.gif" class="caught">
 <img src="icons/333.gif" class="caught">
@@ -522,15 +534,15 @@ a:hover, a:active{
 <img src="icons/338.gif" class="caught">
 <img src="icons/339.gif" class="caught">
 <img src="icons/340.gif" class="caught">
-<img src="icons/341.gif" class="unknown">
+<img src="icons/341.gif" class="caught">
 <img src="icons/342.gif" class="unknown">
 <img src="icons/343.gif" class="caught">
-<img src="icons/344.gif" class="seen">
+<img src="icons/344.gif" class="caught">
 <img src="icons/345.gif" class="unknown">
 <img src="icons/346.gif" class="unknown">
 <img src="icons/347.gif" class="caught">
 <img src="icons/348.gif" class="unknown">
-<img src="icons/349.gif" class="seen">
+<img src="icons/349.gif" class="caught">
 <img src="icons/350.gif" class="seen">
 <img src="icons/351.gif" class="caught">
 <img src="icons/352.gif" class="unknown">
@@ -548,7 +560,7 @@ a:hover, a:active{
 <img src="icons/364.gif" class="caught">
 <img src="icons/365.gif" class="caught">
 <img src="icons/366.gif" class="unknown">
-<img src="icons/367.gif" class="unknown">
+<img src="icons/367.gif" class="seen">
 <img src="icons/368.gif" class="unknown">
 <img src="icons/369.gif" class="unknown">
 <img src="icons/370.gif" class="caught">
@@ -558,16 +570,64 @@ a:hover, a:active{
 <img src="icons/374.gif" class="caught">
 <img src="icons/375.gif" class="seen">
 <img src="icons/376.gif" class="seen">
-<!-- <img src="icons/377.png" class="">
-<img src="icons/378.png" class="">
-<img src="icons/379.png" class="">
-<img src="icons/380.png" class="">
-<img src="icons/381.png" class="">
-<img src="icons/382.png" class="">
-<img src="icons/383.png" class="">
-<img src="icons/384.png" class="">
-<img src="icons/385.png" class="">
-<img src="icons/386.png" class=""> -->
+<img src="icons/377.gif" class="unknown">
+<img src="icons/378.gif" class="unknown">
+<img src="icons/379.gif" class="unknown">
+<img src="icons/380.gif" class="unknown">
+<img src="icons/381.gif" class="unknown">
+<img src="icons/382.gif" class="unknown">
+<img src="icons/383.gif" class="unknown">
+<img src="icons/384.gif" class="unknown">
+<img src="icons/385.gif" class="unknown">
+<img src="icons/386.gif" class="unknown">
+<img src="icons/387.png" class="caught">
+<img src="icons/388.png" class="seen">
+<img src="icons/389.png" class="unknown">
+<img src="icons/390.png" class="caught">
+<img src="icons/391.png" class="unknown">
+<img src="icons/392.png" class="unknown">
+<img src="icons/393.png" class="caught">
+<img src="icons/394.png" class="seen">
+<img src="icons/395.png" class="seen">
+<img src="icons/396.png" class="caught">
+<img src="icons/397.png" class="unknown">
+<img src="icons/398.png" class="unknown">
+<img src="icons/399.png" class="caught">
+<img src="icons/400.png" class="unknown">
+<img src="icons/401.png" class="caught">
+<img src="icons/402.png" class="unknown">
+<img src="icons/403.png" class="unknown">
+<img src="icons/404.png" class="unknown">
+<img src="icons/405.png" class="unknown">
+<img src="icons/406.png" class="unknown">
+<img src="icons/407.png" class="unknown">
+<img src="icons/408.png" class="unknown">
+<img src="icons/409.png" class="unknown">
+<img src="icons/410.png" class="unknown">
+<img src="icons/411.png" class="unknown">
+<img src="icons/412.png" class="unknown">
+<img src="icons/413.png" class="unknown">
+<img src="icons/414.png" class="unknown">
+<img src="icons/415.png" class="unknown">
+<img src="icons/416.png" class="unknown">
+<img src="icons/417.png" class="unknown">
+<img src="icons/418.png" class="unknown">
+<img src="icons/419.png" class="unknown">
+<img src="icons/420.png" class="unknown">
+<img src="icons/421.png" class="unknown">
+<img src="icons/422.png" class="unknown">
+<img src="icons/423.png" class="unknown">
+<img src="icons/424.png" class="unknown">
+<img src="icons/425.png" class="caught">
+<img src="icons/426.png" class="unknown">
+<img src="icons/427.png" class="caught">
+<img src="icons/428.png" class="unknown">
+<img src="icons/429.png" class="unknown">
+<img src="icons/430.png" class="unknown">
+<img src="icons/431.png" class="unknown">
+<img src="icons/432.png" class="unknown">
+<img src="icons/433.png" class="unknown">
+<img src="icons/434.png" class="caught">
 
 
 
