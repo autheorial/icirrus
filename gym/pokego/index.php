@@ -619,7 +619,7 @@ a:hover, a:active{
 <img src="icons/423.png" class="unknown">
 <img src="icons/424.png" class="unknown">
 <img src="icons/425.png" class="caught">
-<img src="icons/426.png" class="unknown">
+<img src="icons/426.png" class="caught">
 <img src="icons/427.png" class="caught">
 <img src="icons/428.png" class="unknown">
 <img src="icons/429.png" class="unknown">
